@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample application built as a response to Mike's question out on the Rails discussion board:
+https://discuss.rubyonrails.org/t/create-selection-table-from-seprate-table/88635
 
-Things you may want to cover:
+Here's a video overview showing this application being built out:
+https://www.youtube.com/watch?v=DS5pMykTdb8
 
-* Ruby version
+In addition to what's shown in the video, this command had been run in order to build out a seeds.rb file:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bin/rails g brick:seeds
+```
